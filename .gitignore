@@ -1,0 +1,103 @@
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+# Keep Visual Studio filter files tracked (commit .vcxproj.filters)
+!*.vcxproj.filters
+*.VC.db
+*.VC.opendb
+ipch/
+*.opensdf
+*.sdf
+x64/Debug/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+build/
+out/
+dist/
+
+# Visual C++ intermediate / linker
+*.obj
+*.o
+*.lib
+*.exp
+*.ilk
+*.idb
+*.pdb
+
+# Executables / DLLs
+*.exe
+*.dll
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+Makefile
+cmake-build-*/
+
+# IDEs
+.vscode/
+.idea/
+
+# NuGet / packages
+*.nupkg
+packages/
+project.lock.json
+
+# vcpkg (もし使っているならインストール済みフォルダは通常無視)
+vcpkg_installed/
+vcpkg/
+
+# HLSL / shader intermediate / compiled shader objects
+*.cso
+*.dxil
+*.hlslobj
+*.incbin
+
+# GPU/graphics capture files and profilers
+*.rdc
+*.pix
+*.psv
+
+# Temp / cache / logs
+*.log
+*.cache
+*.tmp
+*.temp
+*.bak
+
+# Generated files (IDE/CMake-generated etc.)
+*.generated.h
+*.pch
+*.gch
+
+# Coverage / test results
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Archives / packaging artifacts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+# Build outputs
+*.tlog
+*.lastbuildstate
+*.exe.recipe
+*.pdb
+/bin/
+/obj/
