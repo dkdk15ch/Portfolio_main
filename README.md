@@ -88,6 +88,7 @@ msbuild .\Framework_DirectX\SquashBreaker\SquashBreaker.vcxproj `
 Releaseページからダウンロードしてください。
 
 ダウンロード後、SQUASH_BREAKER.exeをクリックし、遊ぶことができます。
+- ファイルサイズ116MB
 
 ###　参考文献 
 - DirectX3D 実践ガイド|著） Pocol
