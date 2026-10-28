@@ -1,0 +1,21 @@
+﻿[
+  {
+    "name": "Player",
+    "racketHeight": 75,
+    "racketRightPos": "50 80 -25",
+    "racketLeftPos": "-50 80 -25",
+    "racketTopPos": "0 180 -25",
+    "moveSpeedX": 500,
+    "moveSpeedY": 800,
+    "jumpVelocity": 500,
+    "aimSpeed": 1500,
+    "aimLimitRight": 300,
+    "aimLimitLeft": -300,
+    "aimLimitTop": 400,
+    "aimLimitDown": 100,
+    "meshPath": "res/Ski/Ch20_nonPBR.fbx",
+    "startPos": "0 0 0",
+    "startRotation": "0 3.141592 0",
+    "scale": 0.5
+  }
+]

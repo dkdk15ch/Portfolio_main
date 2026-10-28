@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{9b5cba0d-1faa-4d2c-b0c3-775b0e461a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{ad275d03-bf60-473d-89b6-698b45a402d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{ec7f3713-b7ce-43ef-88a8-d1cd5af05471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{355cb3bb-237f-4170-a4b7-d9585448765e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{85b3075d-5513-456c-a2ec-16c27170b024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hlsl\ConstantBufferStructer">
+      <UniqueIdentifier>{4a1da0c8-932d-4982-b653-1c4ee7399d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlsl\Animation">
+      <UniqueIdentifier>{3bd31398-6103-4d4b-a25b-3146e3c4be9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{cd52f19f-8469-44ca-a0f6-7ee2f11d9538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Test">
+      <UniqueIdentifier>{ee1a541d-2a63-47ac-aa0a-8ba2089d74ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Param">
+      <UniqueIdentifier>{02f92628-471c-445d-a746-2ffa8d485659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Strategy">
+      <UniqueIdentifier>{7cef6d11-65dc-4a2e-87d3-a719b07ea990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{68551abf-7371-4e30-b839-4ca6bfffe9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\ClearCondition">
+      <UniqueIdentifier>{2435b19f-8898-4325-ad54-cab41cbde9cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\State">
+      <UniqueIdentifier>{7909589f-c147-4ed6-9042-292516e0bb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{a5a08b3e-ac9c-46ce-94b4-2b5d9615e932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\Test">
+      <UniqueIdentifier>{0fa1f26b-ecf1-4bd9-a61e-b6e20a0692f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\HLSL\SepiaFilterCS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\SimplePS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\SimpleTexPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\SimpleTexVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\SimpleVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\ComputeFilterPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\ComputeFilterVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\LambertPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\LambertVS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\HighLuminanceFilter.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\ModelPS.hlsl">
+      <Filter>hlsl\Animation</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\ModelVS.hlsl">
+      <Filter>hlsl\Animation</Filter>
+    </FxCompile>
+    <FxCompile Include="..\HLSL\SimpleAlphaPS.hlsl">
+      <Filter>hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Squash\include\SquashApp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\GamePlay.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Ready.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Title.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Ball.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\GameClear.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\LightManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\GameLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalConstantBuffer.h">
+      <Filter>hlsl\ConstantBufferStructer</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\AssetManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestAnimation.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Mover\BallMovementComp.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\BallParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\PlayerParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Enemy\Enemy.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Enemy\Bat.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Mover\PlayerMovementComp.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Mover\BatMovementComp.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Strategy\BallHitResponse.h">
+      <Filter>GameObject\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Strategy\EnemyHitResponse.h">
+      <Filter>GameObject\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Strategy\EnemyBallHitResponse.h">
+      <Filter>GameObject\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Item\GameItem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\ClearCondition\ItemClearCondition.h">
+      <Filter>Level\ClearCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Strategy\PlayerHitResponse.h">
+      <Filter>GameObject\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\State\PlayerState.h">
+      <Filter>GameObject\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\State\BatState.h">
+      <Filter>GameObject\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\BlockWallParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Block.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BlockWall.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Item\ClearItem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SquashBreaker.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SquashGameManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\GameOver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\ClearLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\GameOverLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TargetUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\TestScene.h">
+      <Filter>Level\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\AnimationTestScene.h">
+      <Filter>Level\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Level\LoadTestLevel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Test\TestLoadObj.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\CollisionLayerParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\PlayGuid.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\ClearItemParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Param\BatParam.h">
+      <Filter>GameObject\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\DrawManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\GamePlay.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Ready.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Title.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Ball.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\GameClear.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\LightManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\GameLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\AssetManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestAnimation.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Mover\BallMovementComp.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\BallParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\PlayerParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Enemy\Enemy.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Enemy\Bat.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Mover\PlayerMovementComp.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Mover\BatMovementComp.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Strategy\BallHitResponse.cpp">
+      <Filter>GameObject\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Strategy\EnemyHitResponse.cpp">
+      <Filter>GameObject\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Strategy\EnemyBallHitResponse.cpp">
+      <Filter>GameObject\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Item\GameItem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\ClearCondition\ItemClearCondition.cpp">
+      <Filter>Level\ClearCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Strategy\PlayerHitResponse.cpp">
+      <Filter>GameObject\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\State\PlayerState.cpp">
+      <Filter>GameObject\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\State\BatState.cpp">
+      <Filter>GameObject\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\BlockWallParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Block.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BlockWall.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Item\ClearItem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SquashBreaker.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SquashGameManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\GameOver.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\ClearLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\GameOverLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TargetUI.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\TestScene.cpp">
+      <Filter>Level\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\AnimationTestScene.cpp">
+      <Filter>Level\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Level\LoadTestLevel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Test\TestLoadObj.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\CollisionLayerParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\PlayGuid.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\ClearItemParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Param\BatParam.cpp">
+      <Filter>GameObject\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\DrawManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="..\HLSL\Global_b0.hlsli">
+      <Filter>hlsl</Filter>
+    </None>
+    <None Include="..\res\Mesh\Enemy\Bat\Bat.json">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Memo.txt">
+      <Filter>Util</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Exe.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

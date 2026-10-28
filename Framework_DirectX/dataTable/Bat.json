@@ -1,0 +1,31 @@
+﻿[
+  {
+    "name": "Bat",
+    "BAT_SCALE": 40,
+    "BAT_ROT": "-1.57 0 0",
+    "BAT_MESH": "res/Mesh/Enemy/Bat/Bat.fbx",
+    "BAT_COLLIDER_POS": "0 -0.1 0",
+    "BAT_COLLIDER_ROT": "0 0 0",
+    "BAT_COLLIDER_SCALE": "1 1 1",
+    "ANIMA_PATH_BAT_FLYING": "res/Animation/Enemy/Bat/Flying.fbx",
+    "ANIMA_LOOP_BAT_FLYING": true,
+    "ANIMA_SCALE_BAT_FLYING": 1,
+    "ANIMA_PATH_BAT_DEATH": "res/Animation/Enemy/Bat/Death.fbx",
+    "ANIMA_LOOP_BAT_DEATH": false,
+    "ANIMA_SCALE_BAT_DEATH": 1,
+    "ANIMA_PATH_BAT_ATTACK": "res/Animation/Enemy/Bat/Attack.fbx",
+    "ANIMA_LOOP_BAT_ATTACK": false,
+    "ANIMA_SCALE_BAT_ATTACK": 0.7,
+    "MOVE_SPEED": 50,
+    "SPAWN_TIME": 1.5,
+    "ATTACK_INTRVAL": 5,
+    "DESPAWN_TIME": 1.5,
+    "BORN_OFFSET_POSY": -30,
+    "BORN_OFFSET_ROTX": 0,
+    "LUNCH_FORCE": 500,
+    "SE_ATTACK": "res/sound/Enemy/SE_EnemyAttack.wav",
+    "VOL_ATTACK": 0.4,
+    "SE_DEAD": "res/sound/Enemy/SE_EnemyDead.wav",
+    "VOL_DEAD": 0.4
+  }
+]

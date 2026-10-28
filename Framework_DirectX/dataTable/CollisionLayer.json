@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "CollisionLayer",
+    "RACKET_TARGET": 544,
+    "PLAYER_TARGET": 612,
+    "BALL_TARGET": 1408,
+    "ENEMY_BALL_TARGET": 144,
+    "BLOCK_TARGET": 2320,
+    "ENEMY_TARGET": 2400,
+    "ITEM_TARGET": 2592,
+    "TARGET_UI_RAY_TARGET": 1348,
+    "STATIC_TARGET": 4026
+  }
+]

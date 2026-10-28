@@ -1,0 +1,12 @@
+﻿[
+  {
+    "name": "ClearItem",
+    "CLEAR_ITEM_MESH": "res/Mesh/Item/Crown1.fbx",
+    "COL_OFFSET_POS": "0 20 0",
+    "COL_OFFSET_SCALE": "40 40 40",
+    "SE_SPAWN": "res/sound/Item/SE_ItemSpawn.wav",
+    "VOL_SPAWN": 0.3,
+    "SE_GAIN": "res/sound/Item/SE_ItemGain.wav",
+    "VOL_GAIN": 0.5
+  }
+]

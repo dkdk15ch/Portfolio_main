@@ -1,0 +1,166 @@
+﻿[
+  {
+    "name": "GameScene",
+    "START_POS": "  ",
+    "START_ROT": "  ",
+    "START_SCALE": "  ",
+    "MIN_POS": "  ",
+    "MAX_POS": "  "
+  },
+  {
+    "name": "Sound",
+    "START_POS": "  ",
+    "START_ROT": "  ",
+    "START_SCALE": "  ",
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "BGM": "res/sound/BGM/BGM_GamePlay2.wav",
+    "VOL_BGM": 0.1
+  },
+  {
+    "name": "GroundData",
+    "START_POS": "  ",
+    "START_ROT": "  ",
+    "START_SCALE": "  ",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "wallRight": 300,
+    "wallLeft": -300,
+    "wallFront": 2000,
+    "wallBack": 0,
+    "roofHeight": 450
+  },
+  {
+    "name": "Camera",
+    "START_POS": "  ",
+    "START_ROT": "  ",
+    "START_SCALE": "  ",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "FOLLOW_OFFSET": "0 400 -950"
+  },
+  {
+    "name": "Player",
+    "START_POS": "-100 0 200",
+    "START_ROT": "0 3.14159265358979 0",
+    "START_SCALE": "100 100 100",
+    "instanceNum": 0,
+    "MIN_POS": "-290 0 -10",
+    "MAX_POS": "310 460 2010",
+    "MASS": 100,
+    "FLOOR_FRICTION": 0.9,
+    "AIR_DRAG": 0.8
+  },
+  {
+    "name": "Ball",
+    "START_POS": "0 400 200",
+    "START_ROT": "  ",
+    "START_SCALE": "10 10 10",
+    "instanceNum": 0,
+    "MIN_POS": "-290 10 10",
+    "MAX_POS": "290 440 1990",
+    "TEXT_PATH": "res/Textures/Ball/Ball.dds",
+    "MASS": 50,
+    "FLOOR_FRICTION": 0.99,
+    "AIR_DRAG": 1
+  },
+  {
+    "name": "BlockWall",
+    "START_POS": "-250 100 1950",
+    "START_ROT": "  ",
+    "START_SCALE": "50 50 50",
+    "instanceNum": 36,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Block/Block.dds",
+    "TILING_X": 1,
+    "TILING_Y": 1,
+    "row": 6,
+    "coulum": 3,
+    "depth": 2
+  },
+  {
+    "name": "Roof",
+    "START_POS": "0 450 1000",
+    "START_ROT": "1.570796 0 0",
+    "START_SCALE": "300 1000 1",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Floor/Floor.dds",
+    "TILING_X": 2,
+    "TILING_Y": 2
+  },
+  {
+    "name": "Floor",
+    "START_POS": "0 0 1000",
+    "START_ROT": "1.570796 0 0",
+    "START_SCALE": "300 1000 1",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Floor/Floor.dds",
+    "TILING_X": 2,
+    "TILING_Y": 2
+  },
+  {
+    "name": "FrontWall",
+    "START_POS": "0 300 2000",
+    "START_ROT": "  ",
+    "START_SCALE": "300 300 1",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Floor/Floor.dds",
+    "TILING_X": 3,
+    "TILING_Y": 3
+  },
+  {
+    "name": "LeftWall",
+    "START_POS": "-300 225 1000",
+    "START_ROT": "0 1.570796 0",
+    "START_SCALE": "1000 225 1",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Floor/Floor.dds",
+    "TILING_X": 4,
+    "TILING_Y": 3
+  },
+  {
+    "name": "RightWall",
+    "START_POS": "300 225 1000",
+    "START_ROT": "0 1.570796 0",
+    "START_SCALE": "1000 225 1",
+    "instanceNum": 0,
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "TEXT_PATH": "res/Textures/Floor/Floor.dds",
+    "TILING_X": 4,
+    "TILING_Y": 3
+  },
+  {
+    "name": "Bat",
+    "MIN_POS": "-260 40 1800",
+    "MAX_POS": "260 300 1970"
+  },
+  {
+    "name": "BatSpawner",
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "MAX_NUM": 5
+  },
+  {
+    "name": "ClearItem",
+    "MIN_POS": "  ",
+    "MAX_POS": "  "
+  },
+  {
+    "name": "ClearItemSpawner",
+    "MIN_POS": "  ",
+    "MAX_POS": "  ",
+    "MAX_NUM": 1
+  }
+]

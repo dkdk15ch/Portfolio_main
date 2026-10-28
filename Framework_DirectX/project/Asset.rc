@@ -1,0 +1,29 @@
+﻿#include "winres.h"
+
+//  animation
+BAT_ATTACK          RCDATA "res/Animation/Enemy/Bat/Attack.fbx"
+BAT_DEATH           RCDATA "res/Animation/Enemy/Bat/Death.fbx"
+BAT_FLYING          RCDATA "res/Animation/Enemy/Bat/Flying.fbx"
+PLAYER_DAMAGE       RCDATA "res/Animation/Player/Damage.fbx"
+PLAYER_HIT_RESPONSE RCDATA "res/Animation/Player/HitResponse.fbx"
+PLAYER_IDLE         RCDATA "res/Animation/Player/Idle.fbx"
+PLAYER_JUMP         RCDATA "res/Animation/Player/Jump.fbx"
+PLAYER_RUN          RCDATA "res/Animation/Player/Run.fbx"
+PLAYER_SMASH        RCDATA "res/Animation/Player/Smash.fbx"
+PLAYER_SWING        RCDATA "res/Animation/Player/Swing.fbx"
+
+//  model
+MESH_PLAYER         RCDATA "res/Mesh/Player/Ch20_nonPBR.fbx"
+MESH_RACKET         RCDATA "res/Mesh/Player/Racket.fbx"
+MESH_CROWN          RCDATA "res/Mesh/Item/Crown.fbx"
+MESH_ENEMY_BAT      RCDATA "res/Mesh/Enemy/Bat/Bat.fbx"
+
+//  texture
+TEXTURE_BAT         RCDATA "res/Textures/Enemy/Bat/Bat_Texture.dds"
+PLAYER_DIFFUSE      RCDATA "res/Textures/Player/Ch20_1001_Diffuse.dds"
+PLAYER_SPECULAR     RCDATA "res/Textures/Player/Ch20_1001_Glossiness.dds"
+PLAYER_NORMAL       RCDATA "res/Textures/Player/Ch20_1001_Normal.dds"
+PLAYER_GLOSSINESS   RCDATA "res/Textures/Player/Ch20_1001_Specular.dds"
+
+//  font
+FONT_INCONSOLATA    RCDATA "res/Fonts/Inconsolata24.spritefont"

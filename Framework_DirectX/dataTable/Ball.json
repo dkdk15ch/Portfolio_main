@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "Ball",
+    "DEFAULT_TIME_SCALE": 1,
+    "SPEED_MIN": 10,
+    "GRAVITY": 1200,
+    "IGNORE_GRAVITY_HEIGHT": 15,
+    "COR_WALL": 0.6,
+    "COR_BLOCK": 0.8,
+    "FRONT_HIT_VERTICAL_DAMPING": 0.7,
+    "SE_BOUND": "res/sound/Ball/SE_Bound.wav",
+    "VOL_BOUND": 2
+  }
+]

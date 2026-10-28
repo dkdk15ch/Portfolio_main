@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー">
+      <UniqueIdentifier>{5b36f8fc-299d-4153-a669-88ba27f314de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース">
+      <UniqueIdentifier>{d3186a71-cb42-4e2c-82df-0b347fba22f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{c8231ada-4d4f-4061-a8f4-d9c8e4811a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawHelper">
+      <UniqueIdentifier>{3705d7c3-8b0c-43e4-875c-7d8dcece99dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0d04c42a-1b38-42fe-94d4-8316473ac5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{63340848-09c6-494b-9c8d-89b801655981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{2c1c9aa6-484e-44ee-a634-670e0280b823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Converter">
+      <UniqueIdentifier>{0ab83070-9b70-448e-9a5b-13283cb47bbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\project\packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DrawHelper\Image.h">
+      <Filter>DrawHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\App.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColorTarget.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandList.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComPtr.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConstantBuffer.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\d3dx12.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DepthTarget.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DescriptorPool.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fence.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IndexBuffer.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Logger.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pool.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResMesh.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VertexBuffer.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicContext.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnorderAccessTarget.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Bone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\Model.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\ModelMesh.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\ModelNode.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\convert_assimp.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vertex.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\AnimationNode.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\AnimationKeyFrame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation\IAssetAccessor.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interface\IAsset.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Converter\Converter.h">
+      <Filter>Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="external\include\fbxsdk.h">
+      <Filter>Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\XMathHelper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\json.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\JsonImporter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Converter\Cooker.h">
+      <Filter>Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\MasalonMaster\MasalonMaster\FrameworkDirectX\include\DrawHelper\Image.h">
+      <Filter>DrawHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Framework_pch.h">
+      <Filter>ヘッダー</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DrawHelper\Image.cpp">
+      <Filter>DrawHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorTarget.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommandList.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComPtr.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConstantBuffer.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DepthTarget.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DescriptorPool.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fence.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IndexBuffer.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResMesh.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VertexBuffer.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicContext.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnorderAccessTarget.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\Bone.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\Model.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\ModelMesh.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\ModelNode.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\convert_assimp.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vertex.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\AnimationNode.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\AnimationKeyFrame.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\IAssetAccessor.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Interface\IAsset.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Converter\Converter.cpp">
+      <Filter>Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\JsonImporter.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Converter\Cooker.cpp">
+      <Filter>Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="include\framework_pch.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

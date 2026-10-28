@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\DirectX12\source\Direct3D_Guide\Direct3D_Guide\Chap6\Chap6\Framework_DirectX\project\x64\checked\SimplePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\DirectX12\source\Direct3D_Guide\Direct3D_Guide\Chap6\Chap6\Framework_DirectX\project\x64\checked\SimpleTexPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\DirectX12\source\Direct3D_Guide\Direct3D_Guide\Chap6\Chap6\Framework_DirectX\project\x64\checked\SimpleTexVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\DirectX12\source\Direct3D_Guide\Direct3D_Guide\Chap6\Chap6\Framework_DirectX\project\x64\checked\SimpleVS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

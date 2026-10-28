@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{c5820f54-d6d9-42a7-806d-8f832f62afea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Sequence">
+      <UniqueIdentifier>{e65befd9-c501-4efc-bdbe-70069b665118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\UI">
+      <UniqueIdentifier>{da162b5e-0d0b-48cc-be6f-347e6afc1f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Util">
+      <UniqueIdentifier>{28e94785-0ebb-48c7-ba39-550cc48b8c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\GameObject">
+      <UniqueIdentifier>{d76582df-c8a4-4edb-976a-1cd5d053740e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Scene">
+      <UniqueIdentifier>{2bdc4903-b3c1-4c4e-85ba-dd3ef147f775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\InOutput">
+      <UniqueIdentifier>{f71c934b-e69a-4dc8-bf1e-33832120174f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Component">
+      <UniqueIdentifier>{eb0a42aa-7c6f-4ca6-b0d4-8800cba9a30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Component\Render">
+      <UniqueIdentifier>{c2cf6c8e-1c42-4353-a01b-1e32cfe4b91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Manager">
+      <UniqueIdentifier>{194b2690-1728-48a0-8208-8388f940d714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Component\Debug">
+      <UniqueIdentifier>{d7b49828-4b9d-4e42-9b33-89356245396a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Component\Movement">
+      <UniqueIdentifier>{32336709-db1c-45dc-82f9-3a7f2ccec52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Component\Collider">
+      <UniqueIdentifier>{38ba2aa3-240e-4ef8-b254-7114e172746e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Tag">
+      <UniqueIdentifier>{7972e731-268e-4598-93ea-3c71f0a8229d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Util\Math">
+      <UniqueIdentifier>{48fea182-6509-4c8c-8b88-4e56e6d4c75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Strategy">
+      <UniqueIdentifier>{fda6d7c8-b12e-428d-8231-9aea7543b39b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Modules_pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sequence\Base.h">
+      <Filter>Modules\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sequence\Child.h">
+      <Filter>Modules\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sequence\Parent.h">
+      <Filter>Modules\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Canvas.h">
+      <Filter>Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\HUD.h">
+      <Filter>Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIBase.h">
+      <Filter>Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIImage.h">
+      <Filter>Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\Loader.h">
+      <Filter>Modules\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\Camera.h">
+      <Filter>Modules\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\PrimitiveMesh.h">
+      <Filter>Modules\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sequence\GameChild.h">
+      <Filter>Modules\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sequence\GameParent.h">
+      <Filter>Modules\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\IJsonData.h">
+      <Filter>Modules\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\StepTimer.h">
+      <Filter>Modules\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level\Level.h">
+      <Filter>Modules\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutput\Pad.h">
+      <Filter>Modules\InOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutput\Audio.h">
+      <Filter>Modules\InOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\ComponentBase.h">
+      <Filter>Modules\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Render\RootParam.h">
+      <Filter>Modules\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Render\RenderCompBase.h">
+      <Filter>Modules\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\GameBase.h">
+      <Filter>Modules\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\ComponentType.h">
+      <Filter>Modules\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\CameraManager.h">
+      <Filter>Modules\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Render\ModelRenderComp.h">
+      <Filter>Modules\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\MovementComp.h">
+      <Filter>Modules\Component\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Animator.h">
+      <Filter>Modules\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Collider\BoxColliderComp.h">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Collider\ColliderCompBase.h">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\TransformComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Collider\SphereColliderComp.h">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\ColliderManager.h">
+      <Filter>Modules\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tag.h">
+      <Filter>Modules\Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\CollisionMath.h">
+      <Filter>Modules\Util\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Strategy\IHitResponse.h">
+      <Filter>Modules\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\ObjectParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\ObjectParamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Render\InstancingRenderComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\FrameDelay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\RenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\MappedVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\PSOKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\PlaneObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\UniqueName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component\Debug\DebugMoveComp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\SphereObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\CubeObject.h">
+      <Filter>Modules\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State\IState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State\StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject\Spawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level\ClearCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Sequence\Child.cpp">
+      <Filter>Modules\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\Parent.cpp">
+      <Filter>Modules\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Canvas.cpp">
+      <Filter>Modules\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\HUD.cpp">
+      <Filter>Modules\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIBase.cpp">
+      <Filter>Modules\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIImage.cpp">
+      <Filter>Modules\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Loader.cpp">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Camera.cpp">
+      <Filter>Modules\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\PrimitiveMesh.cpp">
+      <Filter>Modules\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\GameChild.cpp">
+      <Filter>Modules\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence\GameParent.cpp">
+      <Filter>Modules\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\IJsonData.cpp">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level\Level.cpp">
+      <Filter>Modules\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InOutput\Pad.cpp">
+      <Filter>Modules\InOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InOutput\Audio.cpp">
+      <Filter>Modules\InOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\ComponentBase.cpp">
+      <Filter>Modules\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Render\RenderCompBase.cpp">
+      <Filter>Modules\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameBase.cpp">
+      <Filter>Modules\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\CameraManager.cpp">
+      <Filter>Modules\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Render\ModelRenderComp.cpp">
+      <Filter>Modules\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\MovementComp.cpp">
+      <Filter>Modules\Component\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Animator.cpp">
+      <Filter>Modules\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Collider\BoxColliderComp.cpp">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Collider\ColliderCompBase.cpp">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\TransformComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Collider\SphereColliderComp.cpp">
+      <Filter>Modules\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\ColliderManager.cpp">
+      <Filter>Modules\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tag.cpp">
+      <Filter>Modules\Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\CollisionMath.cpp">
+      <Filter>Modules\Util\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Strategy\IHitResponseStrategy.cpp">
+      <Filter>Modules\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\ObjectParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\ObjectParamManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Render\InstancingRenderComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\RenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\PlaneObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\LevelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Debug\DebugMoveComp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\SphereObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\CubeObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Spawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Modules_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
